@@ -31,10 +31,7 @@ package com.company.assembleegameclient.engine3d
             var _local_2:Model3D_stage3d;
             for each (_local_2 in models)
             {
-                try {
-                    _local_2.CreatBuffer(_arg_1);
-                }
-                catch (e) {}
+                _local_2.CreatBuffer(_arg_1);
             };
         }
 
